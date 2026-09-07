@@ -13,13 +13,19 @@ header {
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #8b0000;
 }
 
 main {
