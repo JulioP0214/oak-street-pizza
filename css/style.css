@@ -63,3 +63,33 @@ footer {
     height: 250px;
     object-fit: cover;
 }
+
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
